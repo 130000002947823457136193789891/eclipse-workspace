@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Experiment8/Experiment8/bin/cn/edu/csuft/Application.class&apos; to &apos;Application.java&apos;" description="Rename resource &apos;Application.class&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Experiment8/bin/cn/edu/csuft/Application.class" name="Application.java" stamp="1592470357009" updateReferences="true"/>
+</session>

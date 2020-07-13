@@ -1,0 +1,59 @@
+package ex2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	interface Command {
+		public abstract void open();
+		public abstract void close();
+	}
+	
+	static class ConcreteCommand implements Command {
+		private Light light;
+		private TV tv;
+		
+		
+		ConcreteCommand(){
+			light = new Light();
+			tv = new TV();
+		}
+
+		@Override
+		public void open() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void close() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+	
+	static class Light {
+		public void on() {
+			System.out.println("Light was opened.");
+		}
+		
+		public void off() {
+			System.out.println("Light has been closed.");
+		}
+	}
+	
+	static class TV {
+		public void on() {
+			System.out.println("TV was opened.");
+		}
+		
+		public void off() {
+			System.out.println("TV has been closed.");
+		}
+	}
+
+}

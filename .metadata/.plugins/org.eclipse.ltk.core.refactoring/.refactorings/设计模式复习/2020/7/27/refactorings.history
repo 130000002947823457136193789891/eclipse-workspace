@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;设计模式复习/观察者模式&apos; to &apos;观察者模式.cld&apos;" description="Rename resource &apos;观察者模式&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="观察者模式" name="观察者模式.cld" stamp="1593687149775" updateReferences="true"/>
+</session>

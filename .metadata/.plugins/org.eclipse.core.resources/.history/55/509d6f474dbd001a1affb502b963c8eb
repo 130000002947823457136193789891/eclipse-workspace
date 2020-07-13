@@ -1,0 +1,18 @@
+package 可口可乐销售;
+
+public class Application {
+
+	public static void main(String[] args) {
+		//用建造者模式先下单
+		BuildOrder buildOrder=new BuildOrder();
+		buildOrder.setName("张三");
+		buildOrder.setGoodsName("可口可乐");//或百事可乐
+		buildOrder.setAddress("长沙");
+		
+		//生成可口可乐公司，唯一性
+		CocaCompany cocaCompany=CocaCompany.getInstance();
+		cocaCompany.construct(buildOrder);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package 可口可乐销售;
+
+public class CocaFactory extends CokeCompanyFactory {
+	public Builder builder;
+
+	@Override
+	public void construct() {
+		builder.getResult();
+	}
+
+}

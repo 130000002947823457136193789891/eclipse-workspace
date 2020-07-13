@@ -1,0 +1,12 @@
+package 可口可乐销售;
+
+public class CocaCompany {
+
+	public Songhuo songhuo;
+	public ProxySonghuo proxyKuaidi;
+	public Order builder;
+	
+	public void construct() {
+		builder.getResult();
+	}
+}

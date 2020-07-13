@@ -1,0 +1,2 @@
+依赖倒转原则：构造注入(construction)、设值注入(setter)、接口注入(implements)三种方式实现小米电视、TCL电视
+的开关功能，请编写代码完成。

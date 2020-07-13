@@ -1,0 +1,9 @@
+package 可口可乐销售;
+
+public abstract class CokeCompanyFactory {
+
+	public Songhuo songhuo;
+	public ProxyKuaidi proxyKuaidi;
+	
+	public abstract void construct();
+}

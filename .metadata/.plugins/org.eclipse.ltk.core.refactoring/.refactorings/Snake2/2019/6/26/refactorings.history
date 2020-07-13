@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;background, body, food, head&apos; to &apos;Snake2&apos;" description="Move 4 resources to &apos;Snake2&apos;" destination="/Snake2" element1="/Snake-3.0/background" element2="/Snake-3.0/body" element3="/Snake-3.0/food" element4="/Snake-3.0/head" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="4" stamp="1561698883659" updateReferences="true"/>
+</session>

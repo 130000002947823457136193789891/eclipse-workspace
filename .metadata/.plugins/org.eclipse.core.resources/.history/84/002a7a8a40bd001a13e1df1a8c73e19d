@@ -1,0 +1,10 @@
+package 可口可乐销售;
+
+public class ProxyKuaidi {
+	public Kuaidi kuaidi;
+	
+	public void songhuo() {
+		kuaidi.songhuo();
+	}
+
+}

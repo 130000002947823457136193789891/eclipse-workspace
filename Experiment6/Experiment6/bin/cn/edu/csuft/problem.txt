@@ -1,0 +1,7 @@
+问题：日志记录器
+某系统日志记录器要求支持多种日志记录方式，如文件记录、数据库记录等，
+且用户可以根据要求动态选择日志记录方式，现使用简单工厂模式和工厂方法模式设计该系统。
+
+简单工厂模式：抽象产品（Log）、具体产品（FileLog、DatabaseLog）、工厂（LogFactory）
+工厂方法模式：抽象产品（Log）、具体产品（FileLog、DatabaseLog）、抽象工厂（LogFactory）、
+具体的工厂（FileLogFactory、DatabaseLogFactory）

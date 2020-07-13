@@ -1,0 +1,38 @@
+package 可口可乐销售;
+
+public class BuildCoke extends Builder {
+	public String name;
+	public String address;
+	public String goodsName;
+	@Override
+	public void setName(String name) {
+		this.goodsName=name;
+	}
+	@Override
+	public void setAddress(String address) {
+		this.address=address;
+	}
+	@Override
+	public void setGoodsName(String goodsName) {
+		this.goodsName=goodsName;
+	}
+	
+	@Override
+	public void getResult() {
+		
+	}
+	@Override
+	public String getName() {
+		return name;
+	}
+	@Override
+	public String getAddress() {
+		return address;
+	}
+	@Override
+	public String getGoodsName() {
+		return goodsName;
+	}
+
+
+}

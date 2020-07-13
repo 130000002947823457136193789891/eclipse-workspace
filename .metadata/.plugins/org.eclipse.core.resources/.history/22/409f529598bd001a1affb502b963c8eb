@@ -1,0 +1,35 @@
+package 可口可乐销售;
+
+public class Application {
+
+	public static void main(String[] args) {
+		//1.代理商选择商品进货
+		//代理商是具有唯一性的。选择的商品种类有原型模式
+		Dailishang dailishang=Dailishang.getInctance();//代理商
+		Jieshoufang jieshoufang=new Jieshoufang("可口可乐&百事可乐公司","12345678@email");
+		Youjian youjian=new Youjian("代理商",jieshoufang);
+		dailishang.operation(youjian);
+		Youjian copyYoujian=dailishang.copyYoujian;
+		//向可口可乐选择商品
+		jieshoufang.setName("可口可乐公司");
+		copyYoujian.setJieshoufang(jieshoufang);//向可口可乐公司发邮件
+		dailishang.setYoujian(copyYoujian);
+		
+		
+		
+		//2.公司供货
+		
+		//3.顾客下单
+		//用建造者模式先下单
+		BuildOrder buildOrder=new BuildOrder();
+		buildOrder.setName("张三");
+		buildOrder.setGoodsName("可口可乐");//或百事可乐
+		buildOrder.setAddress("长沙");
+		
+		//生成可口可乐公司，唯一性
+		CocaCompany cocaCompany=CocaCompany.getInstance();
+		cocaCompany.construct(buildOrder);
+		
+	}
+
+}

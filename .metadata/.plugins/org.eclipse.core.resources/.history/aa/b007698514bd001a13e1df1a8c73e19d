@@ -1,0 +1,9 @@
+package 可口可乐销售;
+
+public abstract class Builder {
+	public abstract void setName();
+	public abstract void setAddress();
+	public abstract void setGoodsName(); //可口可乐或百事可乐
+	public abstract void getResult();
+
+}
